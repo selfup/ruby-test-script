@@ -1,6 +1,6 @@
-l = `cd "test" && ls`
+test_files = `cd "test" && ls`
 
-test_map = l.split("\n")
+test_map = test_files.split("\n")
 
 `cd ".."`
 
